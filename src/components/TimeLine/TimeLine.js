@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
-
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import React, { useEffect, useRef, useState } from 'react';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -44,6 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider divider />
       <SectionTitle>My Journey</SectionTitle>
       <SectionText>
         In my journey to date, I have learned a great deal about development and life in general.
@@ -60,7 +61,7 @@ const Timeline = () => {
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}>
                 <CarouselItemTitle>
-                  {`${item.year}`}
+                  {`${item.month}/${item.year}`}
                   <CarouselItemImg
                     width="208"
                     height="6"

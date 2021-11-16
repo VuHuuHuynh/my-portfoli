@@ -57,10 +57,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started my journey as a new developer.', },
-  { year: 2017, text: 'Worked intensively on ROMs & Kernels.', },
-  { year: 2018, text: 'Learned Android app development.', },
-  { year: 2019, text: 'Finished Diploma in Computer Engineering.', },
-  { year: 2020, text: 'Got a scholarship from the Delhi government.', },
-  { year: 2021, text: 'Still trying to figure out this weird year.', },
+  { month: 10, year: 2019, text: 'Vice Chairman at Student Informatic Club.', },
+  { month: 9, year: 2020, text: 'Back-end developer at AgileTech Viet Nam.', },
+  { month: 9, year: 2021, text: 'Back-end developer at Amele Technology.', },
 ];

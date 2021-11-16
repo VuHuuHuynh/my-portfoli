@@ -1,6 +1,5 @@
-import React from 'react';
+import { Link, Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
-import { Section, SectionText, SectionTitle, Link } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -12,11 +11,14 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-          Hey there, This is Vipul Jha aka lordarcadius. I am an Android & Flutter developer who also works on ROMs, Kernels, & Scripts.
+          Hi, My name is Huynh Vu Huu.
+        </SectionText>
+        <SectionText>
+          I'm a Back-end developer who create API, builds and maintains the technology needed to power the components.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = '/files/resume.pdf';
+          window.location.href = 'https://i.topcv.vn/vuhuuhuynh?ref=3486195';
         }}>My Resume</Button>
       </LeftSection>
     </Section>
