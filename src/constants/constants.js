@@ -59,5 +59,5 @@ export const projects = [
 export const TimeLineData = [
   { month: 10, year: 2019, text: 'Vice Chairman at Student Informatic Club.', },
   { month: 9, year: 2020, text: 'Back-end developer at AgileTech Viet Nam.', },
-  { month: 9, year: 2021, text: 'Back-end developer at Amele Technology.', },
+  { month: 9, year: 2021, text: 'Back-end developer at Amela Technology.', },
 ];
