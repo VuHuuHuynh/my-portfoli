@@ -1,5 +1,6 @@
-import { AiFillFacebook, AiFillGithub, AiFillSkype, AiFillTwitterCircle } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { AiFillFacebook, AiFillGithub } from 'react-icons/ai';
+import { SiTelegram } from "react-icons/si";
+import { Container, Div1, Div3, SocialIcons } from './HeaderStyles';
 
 import Link from 'next/link';
 import React from 'react';
@@ -13,23 +14,6 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
-    <Div2>
-      <li>
-        <Link href="#projects">
-          <NavLink>Home</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#skills">
-          <NavLink>Skills</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-    </Div2>
     <Div3>
       <SocialIcons href="https://github.com/VuHuuHuynh">
         <AiFillGithub size="3rem" />
@@ -37,11 +21,8 @@ const Header = () => (
       <SocialIcons href="https://www.facebook.com/vuhuynh99">
         <AiFillFacebook size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://join.skype.com/invite/YTh5PUsT2oQd">
-        <AiFillSkype size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://twitter.com/Huyn269">
-        <AiFillTwitterCircle size="3rem" />
+      <SocialIcons href="https://t.me/hyun139">
+        <SiTelegram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

@@ -1,4 +1,5 @@
-import { AiFillFacebook, AiFillGithub, AiFillSkype, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillFacebook, AiFillGithub } from 'react-icons/ai';
+import { SiTelegram } from "react-icons/si";
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 import { Link } from '../../styles/GlobalComponents';
@@ -9,20 +10,16 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        <LinkColumn>
-          <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/hyun139">Telegram</LinkItem>
+      <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:huynhvu26998@gmail.com">
+            huynhvu26998@gmail.com
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Phone</LinkTitle>
           <LinkItem href="tel:+84376861778">
             +84 376 861 778
-          </LinkItem>
-        </LinkColumn>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:huynhvu26998@gmail.com">
-            huynhvu26998@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -37,11 +34,8 @@ const Footer = () => {
           <SocialIcons href="https://www.facebook.com/vuhuynh99">
             <AiFillFacebook size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://join.skype.com/invite/YTh5PUsT2oQd">
-            <AiFillSkype size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://twitter.com/Huyn269">
-            <AiFillTwitterCircle size="3rem" />
+          <SocialIcons href="https://t.me/hyun139">
+            <SiTelegram size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

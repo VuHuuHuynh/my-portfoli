@@ -57,7 +57,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { month: 10, year: 2019, text: 'Vice Chairman at Student Informatic Club.', },
-  { month: 9, year: 2020, text: 'Back-end developer at AgileTech Viet Nam.', },
-  { month: 9, year: 2021, text: 'Back-end developer at Amela Technology.', },
+  { start: '01/2019',  end: '01/2021', text: 'Vice Chairman at Student Informatic Club.', },
+  { start: '07/2020',  end: '07/2021', text: 'Back-end developer at AgileTech Viet Nam.', },
+  { start: '07/2021',  end: '05/2022', text: 'Back-end developer at Amela Technology.', },
+  { start: '05/2022',  end: 'Present', text: 'Back-end developer at Sotatek JSC.', },
 ];

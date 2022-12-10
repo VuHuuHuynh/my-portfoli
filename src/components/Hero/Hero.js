@@ -14,11 +14,11 @@ const Hero = (props) => (
           Hi, My name is Huynh Vu Huu.
         </SectionText>
         <SectionText>
-          I'm a Back-end developer who create API, builds and maintains the technology needed to power the components.
+          I'm a Back-end Developer. Currently, I'm working with Blockchain, crawling data and processing logic to build products on Blockchain network platform.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = 'https://i.topcv.vn/vuhuuhuynh?ref=3486195';
+          window.location.href = 'https://www.topcv.vn/xem-cv/Uw4EAltRBgNUBQIEVwxSBgYEDl5XXVUBXQZQAg34b3';
         }}>My Resume</Button>
       </LeftSection>
     </Section>

@@ -1,4 +1,4 @@
-import { SiDocker, SiFirebase, SiGit, SiMysql, SiPostgresql } from "react-icons/si";
+import { SiDocker, SiHiveBlockchain, SiAmazonaws } from "react-icons/si";
 
 import { DiNodejsSmall } from "react-icons/di";
 
@@ -6,37 +6,25 @@ export const Skills = [
   {
     slug: "nodejs",
     Component: DiNodejsSmall,
-    title: "NodeJS",
-    Description: () => <>Currently working with NodeJS and NestJS for API development.</>,
+    title: "Backend",
+    Description: () => <>Currently working with NodeJS/NestJS, MySQL, PostgreSQL for API development.</>,
   },
   {
-    slug: "docker",
+    slug: "blockchain",
+    Component: SiHiveBlockchain,
+    title: "Blockchain",
+    Description: () => <>I have experience working with Smart Contract of Etherium, Solana. Currently, I'm crawling data from Blockchain Networks by Subgraph,...</>,
+  },
+  {
+    slug: "devops",
     Component: SiDocker,
-    title: "Docker",
-    Description: () => <>I can setup dev environment, build & deploy project on production.</>,
+    title: "DevOps",
+    Description: () => <>I can use Docker, Github Action and Gitlab CI to setup environment, build & deploy project.</>,
   },
   {
-    slug: "git",
-    Component: SiGit,
-    title: "Git",
-    Description: () => <>Git is a tool that I often use. I use GitHub, GitLab for development everyday.</>,
-  },
-  {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
-  },
-  {
-    slug: "mysql",
-    Component: SiMysql,
-    title: "MySQL",
-    Description: () => <>Currently I often use MySQL during development. </>,
-  },
-  {
-    slug: "postgresql",
-    Component: SiPostgresql,
-    title: "PostgreSQL",
-    Description: () => <>I can use PostgreSQL during development.</>,
+    slug: "others",
+    Component: SiAmazonaws,
+    title: "Others",
+    Description: () => <>I have experience working with AWS, Socket, Firebase, Stripe,... </>,
   },
 ];
