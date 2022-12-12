@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Huynh Vu - Back-end Dev</title>
+        <title>Huynh Vu - Backend Developer</title>
         <link rel="icon" href="/logo-face.png" />
       </Head>
       <Theme>

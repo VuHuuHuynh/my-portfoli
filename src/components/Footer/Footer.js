@@ -25,7 +25,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2021 <Link href="https://huynhvu.work/">  Huynh Vu Huu</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2021 <Link href="https://huynhvu.work/">  Huynh Vu </Link> . All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/VuHuuHuynh">
